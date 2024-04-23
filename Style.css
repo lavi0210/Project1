@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#6e6e6e;
+}
+.main-sec{
+    width: 400px ;
+    height: 500px;
+    border: 1px solid;
+    margin: 40px 50px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #00feba,#5b548a);
+     
+}
+.search-sec{
+     margin: 30px;
+     /* border: 2px solid; */
+     min-height: 50px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    
+}
+.search-sec input{
+    background: #ebfffc;
+    font-size: 18px;
+    outline: none;
+    height: 45px;
+    width: 80%;
+    padding: 20px;
+    border: none;
+    background-color: #ebfffc;
+    border-radius: 40px;
+}
+.search-sec button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #ebfffc;
+}
+ button img{
+    width: 20px;
+   align-items: center;
+}
+.img{
+    /* border: 1px solid; */
+    height: 150px;
+
+}
+.img img{
+    width: 150px;
+}
+.temp-sec-city{
+    /* border: 1px solid red; */
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.temp-sec-city h1{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: #ebfffc;
+}
+.temp-sec-city  h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #ebfffc;
+}
+.huminity-windspeed{
+    height: 100px;
+    /* border: 1px solid; */
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding:  40px;
+    flex: 1;
+}
+.huminity-windspeed .huminity{
+    display: flex;
+    width: 50%;
+
+    
+}
+.huminity-windspeed .huminity img{
+    width: 30px;
+    height: 30px;
+}
+.huminity-windspeed .windspeed{
+   display: flex;
+   width: 50%;
+}
+.huminity-windspeed .windspeed img{
+    width: 30px;
+    height: 30px;
+}
+.text{
+    padding: 5px;
+    color: #ebfffc;
+}
+.hum{
+    font-size: 25px;
+}
+.wind{
+    font-size: 25px;
+}
+
